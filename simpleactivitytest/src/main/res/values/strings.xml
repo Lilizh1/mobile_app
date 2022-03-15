@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SecondClass1</string>
+    <string name="str">Hello World!</string>
+    <string name="btnstr">Click!!!</string>
+</resources>

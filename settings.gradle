@@ -1,1 +1,1 @@
-include ':app', ':activitylifetest', ':layouttest', ':simpleactivitytest', ':interactactivitytest'
+include ':app', ':activitylifetest', ':layouttest', ':simpleactivitytest', ':interactactivitytest', ':layoutdemo'

@@ -5,10 +5,12 @@
       <module fileurl="file://$PROJECT_DIR$/AndroidWorks.iml" filepath="$PROJECT_DIR$/AndroidWorks.iml" />
       <module fileurl="file://$PROJECT_DIR$/activitylifetest/activitylifetest.iml" filepath="$PROJECT_DIR$/activitylifetest/activitylifetest.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/compoundbutton/compoundbutton.iml" filepath="$PROJECT_DIR$/compoundbutton/compoundbutton.iml" />
       <module fileurl="file://$PROJECT_DIR$/interactactivitytest/interactactivitytest.iml" filepath="$PROJECT_DIR$/interactactivitytest/interactactivitytest.iml" />
       <module fileurl="file://$PROJECT_DIR$/layoutdemo/layoutdemo.iml" filepath="$PROJECT_DIR$/layoutdemo/layoutdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/layouttest/layouttest.iml" filepath="$PROJECT_DIR$/layouttest/layouttest.iml" />
       <module fileurl="file://$PROJECT_DIR$/simpleactivitytest/simpleactivitytest.iml" filepath="$PROJECT_DIR$/simpleactivitytest/simpleactivitytest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/view/view.iml" filepath="$PROJECT_DIR$/view/view.iml" />
     </modules>
   </component>
 </project>

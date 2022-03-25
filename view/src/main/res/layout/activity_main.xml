@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/advertising"
+        android:lines="5"
+        android:text="全校各部门各单位要思想上要高度重视，态度上要坚定坚决，行动上要从严从实，坚决夯实筑牢校园疫情防控的坚强防线，切实守护好全校师生的健康平安" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/time"
+        android:drawableRight="@color/black"
+        android:drawablePadding="12dp"
+        android:hint="输入符合inputType属性要求的内容 "
+        android:inputType="datetime" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="邮件： llz@163.com \n电话：19861109689"
+        android:textSize="32sp"
+        android:autoLink="email|phone"/>
+
+</LinearLayout>

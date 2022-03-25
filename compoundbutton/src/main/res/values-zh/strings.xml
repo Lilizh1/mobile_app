@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">资源文件</string>
+    <string name="other">其他</string>
+    <string name="student">学生</string>
+    <string name="teacher">老师</string>
+    <string name="who">你的身份是：</string>
+    <string name="guoyao">国药</string>
+    <string name="kangxinuo">康希诺</string>
+    <string name="kexing">科兴</string>
+    <string name="what">接种疫苗：</string>
+    <string name="monitor">忘记了上网课时间班长叫</string>
+    <string name="housemates">忘记了上网课时间舍长叫</string>
+    <string name="page_layout">本页布局：适应窄屏</string>
+    <string name="no">现在还没有选择！</string>
+    <string name="choice">你的选择</string>
+    <string name="clear">消除选择</string>
+    <string name="display_teacher">你是老师</string>
+    <string name="display_identity">你不是老师也不是学生</string>
+    <string name="display_student">你是学生</string>
+    <string name="narrow">窄屏</string>
+    <string name="wide">宽屏</string>
+    <string name="Y_kexing">你接种了科兴疫苗...</string>
+    <string name="N_kexing">你没有接种科兴疫苗...</string>
+    <string name="Y_guoyao">你接种了国药疫苗...</string>
+    <string name="N_guoyao">你没有接种国药疫苗...</string>
+    <string name="Y_kangxinuo">你接种了康希诺疫苗...</string>
+    <string name="N_kangxinuo">你没有接种康希诺疫苗...</string>
+    <string name="N_monitor">忘记了上网课时间不让班长叫</string>
+    <string name="N_housemates">忘记了上网课时间不让舍长叫</string>
+    <string name="selection">您目前的选择是：</string>
+    <string name="first">1. 身份：</string>
+    <string name="second">2. 您打过的疫苗：</string>
+    <string name="third">3. 忘上网课谁叫你：</string>
+    <string name="fourth">现在的显示模式是：</string>
+    <string name="dormitory_n">舍长</string>
+    <string name="tip1">(未选择)</string>
+    <string name="tip2">(未接清单内疫苗)</string>
+    <string name="tip3">(自律好青年)</string>
+    <string name="monitor_n">班长</string>
+</resources>

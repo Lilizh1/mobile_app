@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bigLogoSize">200dp</dimen>
+    <dimen name="smallLogoSize">100dp</dimen>
+    <dimen name="defaultMargin">10dp</dimen>
+</resources>

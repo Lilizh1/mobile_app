@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <!-- 校徽及文字：ImageView 的用法 -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical" >
+        <ImageView
+            android:id="@+id/universityImageView"
+            android:layout_width="@dimen/bigLogoSize"
+            android:layout_height="@dimen/bigLogoSize"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/defaultMargin"
+            android:background="@android:color/white"
+            android:scaleType="fitCenter"
+            android:src="@drawable/tsinghua_200" />
+        <TextView
+            android:id="@+id/universityTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="30sp"
+            android:text="清华大学"
+            android:layout_marginTop="@dimen/defaultMargin"
+            android:layout_marginBottom="@dimen/defaultMargin"/>
+    </LinearLayout>
+    <!-- 上一页、下一页按钮：ImageButton 的用法 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+        <ImageButton
+            android:id="@+id/backImageBtn"
+            android:maxHeight="20dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/back"
+            android:scaleType="fitCenter"/>
+        <ImageButton
+            android:id="@+id/forwardImageBtn"
+            android:layout_marginLeft="@dimen/defaultMargin"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/forward"
+            android:scaleType="fitCenter"/>
+    </LinearLayout>
+    <!-- 选择我的大学 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:orientation="horizontal" >
+        <Button
+            android:id="@+id/chooseUniBtn"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:text="我 的 大 学"/>
+        <TextView
+            android:id="@+id/chooseUniTxt"
+            android:layout_marginLeft="@dimen/defaultMargin"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:hint="尚未选择"/>
+    </LinearLayout>
+    <!-- 我喜欢的大学 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:orientation="horizontal" >
+        <Button
+            android:id="@+id/likeUniBtn"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/defaultMargin"
+            android:layout_width="wrap_content"
+            android:text="喜欢的大学"/>
+        <TextView
+            android:id="@+id/likeUniTxt"
+            android:layout_marginLeft="@dimen/defaultMargin"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:hint="尚未选择"/>
+    </LinearLayout>
+    <!-- 大小 logo -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:orientation="horizontal" >
+        <Switch
+            android:id="@+id/logoSizeSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/defaultMargin"
+            android:checked="true"
+            android:textOn="大 Logo"
+            android:textOff="小 Logo"
+            android:showText="true"
+            android:thumb="@drawable/check"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/defaultMargin"
+            android:text="日期时间可见"/>
+        <ToggleButton
+            android:id="@+id/dateTimeToggleBnt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:background="@drawable/selector_btn_toggle"
+            android:text=""
+            android:textOff=""
+            android:textOn=""/>
+    </LinearLayout>
+    <!-- 显示日期 -->
+    <LinearLayout
+        android:id="@+id/dateLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/dateBtn"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/defaultMargin"
+            android:layout_width="wrap_content"
+            android:text="选择日期"/>
+        <TextView
+            android:id="@+id/dateTxt"
+            android:layout_marginLeft="@dimen/defaultMargin"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:hint="尚未选择"/>
+    </LinearLayout>
+    <!-- 显示时间 -->
+    <LinearLayout
+        android:id="@+id/timeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:orientation="horizontal" >
+        <Button
+            android:id="@+id/timeBtn"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/defaultMargin"
+            android:layout_width="wrap_content"
+            android:text="选择时间"/>
+        <TextView
+            android:id="@+id/timeTxt"
+            android:layout_marginLeft="@dimen/defaultMargin"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:hint="尚未选择"/>
+    </LinearLayout>
+</LinearLayout>

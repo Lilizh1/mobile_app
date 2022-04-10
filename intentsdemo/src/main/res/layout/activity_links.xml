@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:text="@string/question_title"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:textSize="16sp"
+        android:text="@string/question_discription"/>
+
+    <Button
+        android:id="@+id/toWriteBnt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="填写信息"/>
+    <Button
+        android:id="@+id/backMainBnt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="返回主页"/>
+
+    <TextView
+        android:id="@+id/msgsText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:textSize="16sp"
+        android:text="已收集链接："/>
+</LinearLayout>

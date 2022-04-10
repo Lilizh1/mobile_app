@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">IntentsDemo</string>
+    <string name="question_title">学生作业链接征集</string>
+    <string name="question_discription">　　采用码云（Gitee)平台展示作业，其目的是为了让同学们在课程学习期间掌握业内成熟的项目开发方法，形成在就业、考研面试中的优势。请大家在本周完成代码上传后，将仓库开源并报告地址。</string>
+</resources>

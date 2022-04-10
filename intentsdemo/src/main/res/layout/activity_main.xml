@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/defaultDist"
+    tools:context=".MainActivity">
+
+    <!-- 展示显式Intent -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="显式Intent" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+            <ImageButton
+                android:id="@+id/linksBnt"
+                android:layout_width="@dimen/iconSize"
+                android:layout_height="@dimen/iconSize"
+                android:layout_margin="@dimen/defaultDist"
+                android:padding="0dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/app_links"
+                 />
+        </TableRow>
+    </TableLayout>
+    <!-- 展示隐式Intent -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="隐式Intent" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+            <ImageButton
+                android:id="@+id/openPageBnt"
+                android:layout_width="@dimen/iconSize"
+                android:layout_height="@dimen/iconSize"
+                android:layout_margin="@dimen/defaultDist"
+                android:padding="0dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/app_browse"
+                />
+            <ImageButton
+                android:id="@+id/mapBnt"
+                android:layout_width="@dimen/iconSize"
+                android:layout_height="@dimen/iconSize"
+                android:layout_margin="@dimen/defaultDist"
+                android:padding="0dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/app_map"
+                 />
+
+            <ImageButton
+                android:id="@+id/dialBnt"
+                android:layout_width="@dimen/iconSize"
+                android:layout_height="@dimen/iconSize"
+                android:layout_margin="@dimen/defaultDist"
+                android:padding="0dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/app_dial"
+                 />
+
+            <ImageButton
+                android:id="@+id/emailBnt"
+                android:layout_width="@dimen/iconSize"
+                android:layout_height="@dimen/iconSize"
+                android:layout_margin="@dimen/defaultDist"
+                android:padding="0dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/app_email"
+                 />
+        </TableRow>
+    </TableLayout>
+    <!-- BroadcastReceiver应用 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BroadcastReceiver应用" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+            <ImageButton
+                android:id="@+id/myBroadcastBnt"
+                android:layout_width="@dimen/iconSize"
+                android:layout_height="@dimen/iconSize"
+                android:layout_margin="@dimen/defaultDist"
+                android:padding="0dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/app_mybroadcast"
+                />
+            <ImageButton
+                android:id="@+id/receiveSMSBroadcastBnt"
+                android:layout_width="@dimen/iconSize"
+                android:layout_height="@dimen/iconSize"
+                android:layout_margin="@dimen/defaultDist"
+                android:padding="0dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/app_sms"
+                />
+
+        </TableRow>
+    </TableLayout>
+
+
+</LinearLayout>

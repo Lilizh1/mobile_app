@@ -11,6 +11,7 @@ import android.widget.TextView;
 
 public class LinksActivity extends AppCompatActivity {
     private TextView msgsText;
+    private  Button backMainBnt;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +22,9 @@ public class LinksActivity extends AppCompatActivity {
         toWriteBnt.setOnClickListener(onClickListener);
 
         msgsText = (TextView) findViewById(R.id.msgsText);
+
+        backMainBnt = (Button) findViewById(R.id.backMainBnt);
+        backMainBnt.setOnClickListener(onClickListener);
     }
     //设置事件监听器对象
     private View.OnClickListener onClickListener = new View.OnClickListener() {

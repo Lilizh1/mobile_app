@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/activitylifetest/activitylifetest.iml" filepath="$PROJECT_DIR$/activitylifetest/activitylifetest.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/compoundbutton/compoundbutton.iml" filepath="$PROJECT_DIR$/compoundbutton/compoundbutton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contentprovidertest/contentprovidertest.iml" filepath="$PROJECT_DIR$/contentprovidertest/contentprovidertest.iml" />
       <module fileurl="file://$PROJECT_DIR$/eventcallback/eventcallback.iml" filepath="$PROJECT_DIR$/eventcallback/eventcallback.iml" />
       <module fileurl="file://$PROJECT_DIR$/intentsdemo/intentsdemo.iml" filepath="$PROJECT_DIR$/intentsdemo/intentsdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/interactactivitytest/interactactivitytest.iml" filepath="$PROJECT_DIR$/interactactivitytest/interactactivitytest.iml" />

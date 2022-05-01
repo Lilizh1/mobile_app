@@ -1,1 +1,1 @@
-include ':app', ':activitylifetest', ':layouttest', ':simpleactivitytest', ':interactactivitytest', ':layoutdemo', ':view', ':compoundbutton', ':univeersityflags', ':eventcallback', ':intentsdemo', ':contentprovidertest', ':week8_storage1'
+include ':app', ':activitylifetest', ':layouttest', ':simpleactivitytest', ':interactactivitytest', ':layoutdemo', ':view', ':compoundbutton', ':univeersityflags', ':eventcallback', ':intentsdemo', ':contentprovidertest', ':week8_storage1', ':week9_advanceui'

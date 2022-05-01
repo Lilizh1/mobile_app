@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="palySites">
+        <item>田径场</item>
+        <item>足球场</item>
+        <item>篮球场</item>
+        <item>排球场</item>
+        <item>网球场</item>
+        <item>健身房</item>
+        <item>大活</item>
+    </string-array>
+</resources>

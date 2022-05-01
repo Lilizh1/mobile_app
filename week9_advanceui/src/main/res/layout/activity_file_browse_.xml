@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- 显示当前路径的文本框 -->
+    <TextView
+        android:id="@+id/filePath"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:layout_alignParentTop="true"/>
+    <!-- 列出当前路径下所有的 ListView -->
+    <ListView
+        android:id="@+id/fileList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:divider="#000"
+        android:dividerHeight="1px"
+        android:layout_below="@+id/filePath">
+    </ListView>
+    <!-- 返回上一级目录的按钮 -->
+    <Button
+        android:id="@+id/fileParent"
+        android:layout_width="38dp"
+        android:layout_height="34dp"
+        android:background="@drawable/home"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>
+

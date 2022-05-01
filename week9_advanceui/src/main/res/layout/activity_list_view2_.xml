@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!-- 添加按钮 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/addListView2Edt"
+            android:layout_width="212dp"
+            android:layout_height="wrap_content">
+        </EditText>
+
+        <Button
+            android:id="@+id/addListView2Btn"
+            android:layout_width="83dp"
+            android:layout_height="wrap_content"
+            android:text="添加">
+        </Button>
+    </LinearLayout>
+    <!-- 默认的 ListView，此处 id="@android:id/list"很关键,也与其他不同 -->
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:drawSelectorOnTop="false" />
+
+    <!-- 此处 id="@android:id/list"很关键，从命名上可以看出是系统提供的名字。这样做可以保证用 getListView 能获取 ListView 对象。
+    请将之换为一般的"@+id/xxx"形式的自定义 id 看看发生了什么?在 Logcat 中查看一下出错后日志中怎么提示 -->
+
+</LinearLayout>

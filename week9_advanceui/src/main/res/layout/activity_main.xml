@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:text="下拉列表Spinner" />
+
+    <Button
+        android:id="@+id/btn_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="简单下拉列表和列表对话框" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:text="列表视图ListView(5.3 P178)" />
+
+    <Button
+        android:id="@+id/btn_listview1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1继承ListActivity实现ListView（默认布局）" />
+
+    <Button
+        android:id="@+id/btn_listview2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1继承ListActivity实现ListView（自定义布局）" />
+
+    <Button
+        android:id="@+id/btn_listview3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2 在Activity中自定义ListView" />
+
+    <Button
+        android:id="@+id/btn_listview4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3复杂ListView" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:text="ListView应用" />
+
+    <Button
+        android:id="@+id/btn_filebrowse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="文件浏览器(9.2.3 P318)" />
+
+    <Button
+        android:id="@+id/btn_students"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="学生数据库(9.4.7 P332)" />
+</LinearLayout>

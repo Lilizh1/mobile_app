@@ -1,0 +1,27 @@
+<!-- 创建新闻内容的 fragment 布局文件 -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NewsDetailFragment">
+
+    <!-- TODO: Update blank fragment layout-->
+    <TextView
+        android:id="@+id/newsTitleTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:text="@string/news_title"/>
+
+    <TextView
+        android:id="@+id/newsDetailTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="@string/news_detail"/>
+</LinearLayout>
+

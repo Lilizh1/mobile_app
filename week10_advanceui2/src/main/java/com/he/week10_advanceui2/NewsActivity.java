@@ -14,7 +14,6 @@ public class NewsActivity extends AppCompatActivity implements NewsListFragment.
         setContentView(R.layout.activity_news);
     }
 
-
     @Override
     public void onNewsSelected(Bundle bundle) {
         FragmentManager manager = getSupportFragmentManager();

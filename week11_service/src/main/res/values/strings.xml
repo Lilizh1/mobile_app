@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">第11周 Service</string>
+    <string name="tip_part1">1. 理解Service：打开AS中的Logcat，根据看到的日志可以理解创建、启动（可以多次启动）、停止服务的过程。</string>
+    <string name="tip_part2">2. Activity与Service间的通信：服务启动之后，即可与启动它的活动之间没有任何联系。要让二者之间仍保持紧密联系，用绑定的手段解决。</string>
+    <string name="tip_part3">3. 在Service中执行耗时操作：这是服务中常做的事，有两种方法：（1）新开线程执行；（2）利用Service的子类IntentService。</string>
+    <string name="tip_part4">4. 系统服务应用：以通知服务为例学习在应用中使用系统自带的Service</string>
+    <string name="tip_part5">5. 服务的应用：在应用场景中使用服务</string>
+    <string name="notification1">通知内容：学而时习之，不亦乐乎。老人家在告诫我们，学和习，即认知与实践要紧密结合，方可修得正果。</string>
+    <string name="notification2">通知内容：子曰：“不愤不启，不悱不发。举一隅不以三隅反，则不复也。” \n意思是，不到苦思不得解时，就不开导；不到欲诉不能言时，就不启发。不能举一反三，就不教新的。\n举一反三，是我们学习的目标。</string>
+</resources>

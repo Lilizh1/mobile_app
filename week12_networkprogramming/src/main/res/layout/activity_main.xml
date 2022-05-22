@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="第12周 网络编程实践项目"/>
+
+    <Button
+        android:id="@+id/socket_client"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Socket连接" />
+
+    <Button
+        android:id="@+id/URL_connection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="URL连接" />
+
+
+    <Button
+        android:id="@+id/http_connection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="http连接" />
+
+    <Button
+        android:id="@+id/mysql_connection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mysql数据库连接" />
+
+
+</LinearLayout>

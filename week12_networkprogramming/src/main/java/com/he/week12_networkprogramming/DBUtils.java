@@ -20,7 +20,7 @@ public class DBUtils {
         try {
             //动态加载 MySql 的驱动
             Class.forName("com.mysql.jdbc.Driver");
-            String url = "jdbc:mysql://192.168.1.110:3307/" + dbName;
+            String url = "jdbc:mysql://192.168.214.217:3307/" + dbName;
             connection = DriverManager.getConnection(url, user, password);
         } catch (Exception e) {
             e.printStackTrace();

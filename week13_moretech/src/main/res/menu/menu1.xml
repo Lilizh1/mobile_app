@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- 下面的定义中有缺项，有些需要在资源文件中添加项目，请自行补足  -->
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/search"
+        android:title="@string/search"
+        app:showAsAction="always"></item>
+    <item
+        android:id="@+id/bell"
+        android:icon="@drawable/bell"
+        android:title="@string/bell"
+        app:showAsAction="always"></item>
+    <item
+        android:id="@+id/settings"
+        android:title="@string/settings"
+        app:showAsAction="ifRoom"></item>
+    <item
+        android:id="@+id/about"
+        android:title="@string/about"
+        app:showAsAction="never"></item>
+</menu>
